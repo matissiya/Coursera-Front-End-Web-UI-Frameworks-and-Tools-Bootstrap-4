@@ -1,7 +1,7 @@
 {
   "name": "lesson1",
   "version": "1.0.0",
-  "description": "",
+  "description": "coursera. Front-End Web UI Frameworks and Tools: Bootstrap 4. lesson1",
   "main": "index.html",
   "scripts": {
     "start": "npm run lite",
