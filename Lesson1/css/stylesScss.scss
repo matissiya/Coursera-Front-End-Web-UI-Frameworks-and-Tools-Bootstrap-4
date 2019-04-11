@@ -1,5 +1,6 @@
 $lt-gray: #ddd;
-$background-dark: #25201b;
+$lt-floralwhite: floralwhite;
+$background-dark: #343a40;
 $background-light: rgba(255, 251, 85, 0.41);
 $background-pale: gainsboro;
 
@@ -72,4 +73,15 @@ body{
   right: 0px;
   position: absolute;
   bottom: 0px;
+}
+
+.modal-header{
+  background: $background-dark;
+  color: $lt-floralwhite;
+  .close{
+    color: $lt-floralwhite;
+  }
+}
+.modal-body{
+  background: $background-light;
 }
