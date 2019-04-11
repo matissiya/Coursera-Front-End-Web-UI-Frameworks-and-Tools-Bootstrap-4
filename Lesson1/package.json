@@ -4,6 +4,7 @@
   "description": "coursera. Front-End Web UI Frameworks and Tools: Bootstrap 4. lesson1",
   "main": "index.html",
   "scripts": {
+    "scss": "node-sass -o css/ css/",
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server"
@@ -11,7 +12,8 @@
   "author": "Korolevskaya.E.",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.4.0"
+    "lite-server": "^2.4.0",
+    "node-sass": "^4.7.2"
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
